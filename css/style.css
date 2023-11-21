@@ -1,4 +1,83 @@
+:root{
+    --header-link:#FFF;
+    --header-come:#26C6EA;
+    --quote-list:#0A3853;
+    --quote-name:#000;
+    --language-text:#141414;
+}
+/* 
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Headland One', serif;
+font-family: 'Inter', sans-serif; 
+*/
+
 .container{
-    width: 1047;
+    width: 1047px;
+    margin: 0 auto;
     padding: 0 15px;
+}
+
+.logo{
+    width: 186px;
+    height: 72px;
+}
+
+.header-logo{
+    
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav{
+    width: 1047px;
+    height: 150px;
+}
+
+.header-list{
+    color: var(--header-link);
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-list:hover{
+    color: var(--header-come);
+}
+
+.header-item{
+    
+}
+
+.header-switch{
+    width: 36px;
+    height: 20px;
+}
+
+.header-link{
+    color: var(--header-link);
+}
+
+.header-come{
+    text-decoration: none;
+    color: var(--header-come);
+}
+
+.header-site-link{
+    text-decoration: none;
+    color: var(--header-link);
+}
+
+.header-fon{
+    background: url(/img/fon-header.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 3px solid #FFF;
+    /* background: rgba(43, 74, 97, 0.87); */
 }
