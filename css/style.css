@@ -22,6 +22,11 @@ font-family: 'Inter', sans-serif;
     height: 72px;
 }
 
+.footer-logo{
+    width: 183px;
+    height: 70px;
+}
+
 .header-logo{
     
 }
@@ -74,10 +79,40 @@ font-family: 'Inter', sans-serif;
 }
 
 .header-fon{
-    background: url(/img/fon-header.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     border-bottom: 3px solid #FFF;
-    /* background: rgba(43, 74, 97, 0.87); */
+    background: url(/img/fon-header.webp) rgba(43, 74, 97, 0.87);
+    background-size: cover;
+}
+
+.hero{
+    background: url(/img/avatar.webp) lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero-text{
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    color: var(--header-link);
+    margin-bottom: 180px;
+}
+
+.hero-spear{
+    cursor: pointer;
+}
+
+.join{
+    width: 260px;
+    height: 80px;
+    background-color: var(--quote-list);
+    font-family: 'Headland One', serif;
+    color: var(--header-come);
+    border-radius: 45px 0px;
+    border: 3px solid #26C7EA;
+}
+
+.programs{
+    background-color: red;
+    justify-content: space-between;
 }
