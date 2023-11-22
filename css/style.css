@@ -139,6 +139,7 @@ font-family: 'Inter', sans-serif;
     color: var(--quote-list);
     display: flex;
     text-align: justify;
+    font-size: 36px;
 }
 
 .quote-name{
@@ -203,9 +204,15 @@ font-family: 'Inter', sans-serif;
     height: 223px;
 }
 
-.language-item{
+.square{
     width: 320px;
     height: 240px;
     background: rgba(255, 255, 255, 0.70);
     margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language-item{
+    
 }
