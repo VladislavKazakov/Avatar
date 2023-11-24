@@ -39,8 +39,7 @@ font-family: 'Inter', sans-serif;
 }
 
 .header-nav{
-    width: 1047px;
-    height: 150px;
+    width: 1440px;
 }
 
 .header-list{
@@ -87,9 +86,8 @@ font-family: 'Inter', sans-serif;
     color: var(--header-link);
 }
 
-.header-fon{
+.header{
     width: 1440px;
-    height: 150px;
     border-bottom: 3px solid #FFF;
     background: url(/img/fon-header.webp), rgba(43, 74, 97, 0.87);
     background-size: cover;
@@ -97,7 +95,6 @@ font-family: 'Inter', sans-serif;
 
 .hero{
     width: 1440px;
-    height: 740px;
     background: url(/img/avatar.webp), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,7 +156,7 @@ font-family: 'Inter', sans-serif;
 
 .painting{
     width: 1440px;
-    height: 741px;
+
     background: url(/img/avatarka.webp), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,7 +182,6 @@ font-family: 'Inter', sans-serif;
 
 .language{
     width: 1440px;
-    height: 704px;
     background: url(/img/fon.webp), lightgray 50%;
     background-size: cover; 
     background-repeat: no-repeat;
@@ -193,7 +189,6 @@ font-family: 'Inter', sans-serif;
 
 .footer{
     width: 1440px;
-    height: 223px;
     background: url(/img/fon-footer.webp), lightgray 50%;
     background-size: cover; 
     background-repeat: no-repeat;
@@ -201,12 +196,10 @@ font-family: 'Inter', sans-serif;
 
 .footer-section{
     width: 1440px;
-    height: 223px;
 }
 
 .square{
     width: 320px;
-    height: 240px;
     background: rgba(255, 255, 255, 0.70);
     margin-bottom: 30px;
     display: flex;
