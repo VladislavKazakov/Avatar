@@ -29,7 +29,7 @@ font-family: 'Inter', sans-serif;
 }
 
 .header-logo{
-    
+
 }
 
 .header-wrap{
@@ -48,12 +48,8 @@ font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-family: 'Inter', sans-serif; 
     display: flex;
-    justify-content: space-between;
+    text-align: center;
 }
-
-/* .header-list:hover{
-    color: var(--header-come);
-} */
 
 .header-item{
     
@@ -73,6 +69,7 @@ font-family: 'Inter', sans-serif;
 }
 
 .header-come{
+    font-family: 'Headland One', serif;
     text-decoration: none;
     color: var(--header-come);
 }
@@ -82,19 +79,18 @@ font-family: 'Inter', sans-serif;
 }
 
 .header-site-link{
+    font-family: 'Hammersmith One', sans-serif;
     text-decoration: none;
     color: var(--header-link);
 }
 
 .header{
-    width: 1440px;
     border-bottom: 3px solid #FFF;
     background: url(/img/fon-header.webp), rgba(43, 74, 97, 0.87);
     background-size: cover;
 }
 
 .hero{
-    width: 1440px;
     background: url(/img/avatar.webp), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,17 +108,6 @@ font-family: 'Inter', sans-serif;
 
 }
 
-.join{
-    width: 260px;
-    height: 80px;
-    font-size: 24px;
-    background-color: var(--quote-list);
-    font-family: 'Headland One', serif;
-    color: var(--header-come);
-    border-radius: 45px 0px;
-    border: 3px solid var(--header-come);
-}
-
 .programs{
     
 }
@@ -133,33 +118,69 @@ font-family: 'Inter', sans-serif;
 
 .quote-list{
     font-family: 'Inter', sans-serif; 
+    font-size: 36px;
     color: var(--quote-list);
     display: flex;
-    text-align: justify;
-    font-size: 36px;
+    text-align: center;
 }
 
 .quote-name{
     font-family: 'Inter', sans-serif; 
+    font-size: 24px;
     color: var(--quote-name);
     display: flex;
     justify-content: center;
 }
 
-.img-ptax{
-    width: 400px;
-    height: 120px;
+.quote-ptax{
     background-repeat: no-repeat;
     display: flex;
-
+    justify-content: center;
 }
 
 .painting{
-    width: 1440px;
-
     background: url(/img/avatarka.webp), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.language-text-item{
+    color: var(--language-text);
+    text-align: center;
+    font-size: 32px;
+}
+
+.language-text{
+    color: var(--language-text);
+    text-align: center;
+    font-size: 24px;
+}
+
+.language-navi{
+    color: var(--quote-name);
+    text-align: center;
+    font-size: 24px;
+}
+
+.language-spear{
+    width: 152px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.language-ptax{
+    width: 152px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.language-lev-spear{
+    width: 152px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .fon-painting{
@@ -171,41 +192,53 @@ font-family: 'Inter', sans-serif;
     height: 80px;
     font-family: 'Headland One', serif;
     color: var(--header-come);
-    text-align: center;
     font-size: 24px;
     background-color: var(--quote-list);
     border-radius: 45px 0px;
     border: 3px solid var(--header-come);
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .language{
-    width: 1440px;
+    font-family: 'Headland One', serif;
     background: url(/img/fon.webp), lightgray 50%;
     background-size: cover; 
     background-repeat: no-repeat;
 }
 
 .footer{
-    width: 1440px;
     background: url(/img/fon-footer.webp), lightgray 50%;
     background-size: cover; 
     background-repeat: no-repeat;
 }
 
-.footer-section{
-    width: 1440px;
+.footer-list{
+    font-family: 'Inter', sans-serif; 
+}
+
+.footer-link{
+    color: var(--header-link);
+    text-align: justify;
+    font-size: 20px;
+}
+
+.footer-link-text{
+    color: var(--header-link);
+    text-align: justify;
+    font-size: 14px;
 }
 
 .square{
     width: 320px;
     background: rgba(255, 255, 255, 0.70);
-    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .language-item{
     
+}
+
+.language-list{
+
 }
