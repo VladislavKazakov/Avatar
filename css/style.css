@@ -26,6 +26,7 @@ font-family: 'Inter', sans-serif;
 .footer-logo{
     width: 183px;
     height: 70px;
+    display: flex;
 }
 
 .header-logo{
@@ -75,7 +76,7 @@ font-family: 'Inter', sans-serif;
 }
 
 .header-item-come{
-
+    background: url(/img/pramokyt.webp);
 }
 
 .header-site-link{
@@ -241,4 +242,8 @@ font-family: 'Inter', sans-serif;
 
 .language-list{
 
+}
+
+.footer-div{
+    display: flex;
 }
