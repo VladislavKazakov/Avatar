@@ -40,9 +40,13 @@ font-family: 'Inter', sans-serif;
 }
 
 .header-nav{
-    width: 1440px;
-}
 
+}
+.painting-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header-list{
     color: var(--header-link);
     font-size: 20px;
@@ -50,6 +54,8 @@ font-family: 'Inter', sans-serif;
     font-family: 'Inter', sans-serif; 
     display: flex;
     text-align: center;
+    margin-bottom: 63px;
+    margin-top: 63px;
 }
 
 .header-item{
@@ -69,6 +75,10 @@ font-family: 'Inter', sans-serif;
     color: var(--header-link);
 }
 
+.header-link:hover{
+    color: var(--header-come);
+}
+
 .header-come{
     font-family: 'Headland One', serif;
     text-decoration: none;
@@ -76,25 +86,28 @@ font-family: 'Inter', sans-serif;
 }
 
 .header-item-come{
-    background: url(/img/pramokyt.webp);
+    background-image: url(../img/pramokyt.webp);
+    background-size: 141px;
 }
 
-.header-site-link{
+/* .header-site-link{
     font-family: 'Hammersmith One', sans-serif;
     text-decoration: none;
     color: var(--header-link);
-}
+} */
 
 .header{
     border-bottom: 3px solid #FFF;
-    background: url(/img/fon-header.webp), rgba(43, 74, 97, 0.87);
+    background: url(../img/fon-header.webp), rgba(43, 74, 97, 0.87);
     background-size: cover;
 }
 
 .hero{
-    background: url(/img/avatar.webp), lightgray 50%;
+    background: url(../img/avatar.webp), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 179px;
 }
 
 .hero-text{
@@ -102,7 +115,7 @@ font-family: 'Inter', sans-serif;
     text-align: left;
     font-family: 'Inter', sans-serif;
     color: var(--header-link);
-    /* margin-bottom: 180px; */
+
 }
 
 .hero-spear{
@@ -110,7 +123,8 @@ font-family: 'Inter', sans-serif;
 }
 
 .programs{
-    
+    display: flex;
+    justify-content: left;
 }
 
 .quote{
@@ -123,6 +137,7 @@ font-family: 'Inter', sans-serif;
     color: var(--quote-list);
     display: flex;
     text-align: center;
+    padding-top: 75px;
 }
 
 .quote-name{
@@ -137,24 +152,22 @@ font-family: 'Inter', sans-serif;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-}
-
-.painting{
-    background: url(/img/avatarka.webp), lightgray 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-bottom: 10px;
 }
 
 .language-text-item{
     color: var(--language-text);
     text-align: center;
     font-size: 32px;
+    padding-top: 58px;
+    padding-bottom: 45px;
 }
 
 .language-text{
     color: var(--language-text);
     text-align: center;
     font-size: 24px;
+    margin-bottom: 40px;
 }
 
 .language-navi{
@@ -166,26 +179,22 @@ font-family: 'Inter', sans-serif;
 .language-spear{
     width: 152px;
     height: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.language-ptax{
-    width: 152px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.language-lev-spear{
-    width: 152px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .fon-painting{
 
+}
+
+.join{
+    font-family: 'Headland One', serif;
+    color: var(--header-come);
+    font-size: 24px;
+    background-color: var(--bottom--);
+    border-radius: 45px 0px;
+    border: 3px solid var(--header-come);
+    text-align: center;
 }
 
 .watch{
@@ -194,21 +203,32 @@ font-family: 'Inter', sans-serif;
     font-family: 'Headland One', serif;
     color: var(--header-come);
     font-size: 24px;
-    background-color: var(--quote-list);
+    background-color: var(--bottom--);
     border-radius: 45px 0px;
     border: 3px solid var(--header-come);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painting{
+    background: url(../img/avatarka.webp), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 330px;
+    padding-bottom: 331px;
 }
 
 .language{
     font-family: 'Headland One', serif;
-    background: url(/img/fon.webp), lightgray 50%;
+    background: url(../img/fon.webp), lightgray 50%;
     background-size: cover; 
     background-repeat: no-repeat;
 }
 
 .footer{
-    background: url(/img/fon-footer.webp), lightgray 50%;
+    background: url(../img/fon-footer.webp), lightgray 50%;
     background-size: cover; 
     background-repeat: no-repeat;
 }
@@ -230,18 +250,23 @@ font-family: 'Inter', sans-serif;
 }
 
 .square{
-    width: 320px;
-    background: rgba(255, 255, 255, 0.70);
-    display: flex;
-    flex-wrap: wrap;
+
 }
 
 .language-item{
-    
+    width: 320px;
+    background: rgba(255, 255, 255, 0.70);
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 36px 10px;
 }
 
 .language-list{
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .footer-div{
