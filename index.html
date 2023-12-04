@@ -22,6 +22,7 @@
   </head>
   <body>
     <header class="header">
+      <div class="header-bg">
       <div class="container header-wrap">
         <a class="header-logo" href="#">
           <img class="logo" src="./img/logo.webp" alt="logo" />
@@ -41,20 +42,21 @@
         </nav>
         <ul class="header-site">
           <li class="header-item-come">
-            <a class="header-come" href="#"
-              >Увійти</a
-            >
+            <button class="header-come">Увійти</button>
         </ul>
           <img
             class="header-switch-img"
             src="./img/engua.webp"
             alt="switcher"
           />
+        </div>
+      </div>
     </header>
 
     <main>
       <section class="hero">
-        <div class="container">
+        <div class="container hero-wrap">
+          <div>
           <p class="hero-text">
             Oe perlltxe hu tsamsiyu! <br />
             Ngari hu Eywa salew tirea, <br />
@@ -75,17 +77,18 @@
             щоб стати частиною Народу.<br />
             Борись разом з нами!
           </p>
-          <a class="join" href="#">
-            Приєднатися до <br />
-            клану
+          <button class="join">Приєднатися до <br />
+            клану</button>
           </a>
+        </div>
           <div class="programs">
-            <ul>
-              <li><img class="inst" src="./img/inst.webp" alt="inst" /></li>
-              <li>.
+            <ul class="programs-list">
+              <li class="programs-item">
+                <img class="inst" src="./img/inst.webp" alt="inst" /></li>
+              <li class="programs-item">.
                 <img class="twitter" src="./img/twitter.webp" alt="twitter" />
               </li>
-              <li>
+              <li class="programs-item">
                 <img class="youtube" src="./img/youtube.webp" alt="youtube" />
               </li>
             </ul>
@@ -196,11 +199,14 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="footer-bg">
+      <div class="container footer-wrap">
         <div class="footer-div">
+          <div class="footer-stick">
           <a class="footer-logo" href="#">
             <img class="footer-logo" src="./img/logo.webp" alt="logo" />
           </a>
+        </div>
 
         <ul class="footer-list">
           <li class="footer-item">
@@ -209,26 +215,25 @@
 
 
 
-            <a class="footer-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="footer-link" href="mailto:avatartwowqa@gmail.com"
+              >avatartwowqa@gmail.com</a
             >
           </li>
           <li class="footer-item">
             <p class="footer-link">Cooperation E-mail</p>
             <div class="footer-dotted"><img src="./img/vector.webp" alt=""></div>
 
-            <a class="footer-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="footer-link" href="mailto:avatartwowqa@gmail.com"
+              >avatartwowqa@gmail.com</a
             >
           </li>
         </ul>
       </div>
-        <div class="footer-link">
-          <p class="footer-link-text">
-            ©2023 Avatar: The Way Of Water. All rights reserved
-          </p>
-        </div>
       </div>
+        <p class="footer-link-text">
+          ©2023 Avatar: The Way Of Water. All rights reserved
+        </p>
+    </div>
     </footer>
   </body>
 </html>
