@@ -7,6 +7,7 @@
     --language-text:#141414;
     --header-text:#94CFFF;
 }
+
 /* 
 font-family: 'Hammersmith One', sans-serif;
 font-family: 'Headland One', serif;
@@ -24,19 +25,12 @@ font-family: 'Inter', sans-serif;
     height: 72px;
 }
 
-.header-logo{
-
-}
-
 .header-wrap{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-nav{
-
-}
 .painting-wrap{
     display: flex;
     justify-content: center;
@@ -53,10 +47,6 @@ font-family: 'Inter', sans-serif;
 
 .header-item{
     margin-left: 38px;
-}
-
-.header-img{
-    
 }
 
 .header-switch{
@@ -81,6 +71,11 @@ font-family: 'Inter', sans-serif;
     padding: 8px 38px;
     border-radius: 50px 0 50px 0;
     cursor: pointer;
+}
+
+.header-come:hover{
+    border: 3px solid rgb(96, 224, 252);
+    color: rgb(96, 224, 252);
 }
 
 .header{
@@ -126,9 +121,6 @@ font-family: 'Inter', sans-serif;
     cursor: pointer;
 }
 
-.hero-spear-img{
-}
-
 .programs{
     display: flex;
 }
@@ -146,10 +138,6 @@ font-family: 'Inter', sans-serif;
 
 .twitter{
     margin-bottom: 27px;
-}
-
-.quote{
-
 }
 
 .quote-list{
@@ -227,6 +215,11 @@ font-family: 'Inter', sans-serif;
     cursor: pointer;
 }
 
+.join:hover{
+    border: 3px solid rgb(96, 224, 252);
+    color: rgb(96, 224, 252);
+}
+
 .watch{
     width: 260px;
     height: 80px;
@@ -243,6 +236,11 @@ font-family: 'Inter', sans-serif;
     cursor: pointer;
 }
 
+.watch:hover{
+    border: 3px solid rgb(96, 224, 252);
+    color: rgb(96, 224, 252);
+}
+
 .painting{
     background: url(../img/avatarka.webp), lightgray 50%;
     background-repeat: no-repeat;
@@ -256,6 +254,7 @@ font-family: 'Inter', sans-serif;
     background: url(../img/fon.webp), lightgray 50%;
     background-size: cover; 
     background-repeat: no-repeat;
+    padding-bottom: 25px;
 }
 
 .language-list{
@@ -279,16 +278,20 @@ font-family: 'Inter', sans-serif;
 
 .footer-bg{
     background-color: rgba(43, 74, 97, 0.87);
-    padding-top: 77px;
-    padding-bottom: 76px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .footer-link{
     color: var(--header-link);
     font-size: 20px;
-    margin-left: 20px;
     margin-right: 20px;
-    width: 182px;
+}
+
+.footer-mail{
+    color: var(--header-link);
+    font-size: 20px;
+    margin-left: 20px;
 }
 
 .footer-link-text{
@@ -322,8 +325,4 @@ font-family: 'Inter', sans-serif;
     display: flex;
     margin-bottom: 16px;
     margin-left: 80px;
-}
-
-.square{
-
 }
