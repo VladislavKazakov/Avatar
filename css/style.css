@@ -133,11 +133,16 @@ font-family: 'Inter', sans-serif;
 
 .inst{
     margin-bottom: 24px;
-
+    cursor: pointer;
 }
 
 .twitter{
     margin-bottom: 27px;
+    cursor: pointer;
+}
+
+.youtube{
+    cursor: pointer;
 }
 
 .quote-list{
