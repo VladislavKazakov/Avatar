@@ -299,6 +299,10 @@ font-family: 'Inter', sans-serif;
     margin-left: 20px;
 }
 
+.footer-mail:hover{
+    color: #69a1ce;
+}
+
 .footer-link-text{
     font-family: 'Inter', sans-serif; ;
     color: var(--header-link);
